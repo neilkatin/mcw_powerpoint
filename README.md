@@ -26,10 +26,10 @@ The major difference is: `.env` is not checked into git and should hold all secu
 
 These values must be defined for the program to work:
 
-* `TENANT_ID`the red cross azure tenant UUID
-* `LIENT_ID`the application id for this client in azure
-* `LIENT_SECRET`the application secret.  Be sure to note the expiration time of the secret and add it as a comment in the .env file
-* `RIVE_ID`the id of the Document Folder for the MCW team.
+* `TENANT_ID`the red cross azure tenant GUID
+* `CLIENT_ID`the application id for this client in azure
+* `CLIENT_SECRET`the application secret.  Be sure to note the expiration time of the secret and add it as a comment in the .env file
+* `DRIVE_ID`the id of the Document Folder for the MCW team.
 
 `TENANT_ID` and `DRIVE_ID` are probably not 'secret', but for now all the parameters are in the `.env` file
 
